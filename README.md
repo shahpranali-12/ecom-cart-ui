@@ -1,9 +1,42 @@
-# Screenshots
+# VibeCommerce (Full-Stack E-Commerce Cart)
 
-[Screenshot 1](<img width="1920" height="845" alt="Image" src="https://github.com/user-attachments/assets/03753d61-123d-41be-beff-036e4890c881" />)
-[Screenshot 2](<img width="1920" height="835" alt="Image" src="https://github.com/user-attachments/assets/fa56ceee-5095-421c-ba75-39f7d6fbeae4" />)
-[Screenshot 3](<img width="1920" height="790" alt="Image" src="https://github.com/user-attachments/assets/ea0ee1a6-dbd2-4b3c-84b8-cf83d8fd9602" />)
-)
+> A complete full-stack e-commerce shopping cart application built with React, Node.js, and Express. This project demonstrates core e-commerce functionalities, including product display, cart management, and a mock checkout process.
+
+
+---
+
+
+## 📸 Screenshots
+
+Here is a preview of the application:
+
+| Product Page | Cart & Checkout |
+| :---: | :---: |
+| ![Product Page](./images/screenshot-1.png) | ![Cart & Checkout Modal](./images/screenshot-2.png) |(./images/screenshot-3.png)
+
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **Backend:** Node.js, Express
+* **API Client:** Axios
+* **Database:** In-memory JS array (for demo purposes)
+
+---
+
+## 🚀 Features
+
+* **Product Listing:** Fetches and displays a grid of available products from the backend.
+* **Add to Cart:** Users can add products to their shopping cart.
+* **Dynamic Cart:** View all items in the cart, update quantities, and remove items.
+* **Real-Time Totals:** The cart total updates automatically.
+* **Mock Checkout:** A checkout form captures user details and simulates an order completion with a receipt modal.
+* **Full-Stack Integration:** A RESTful API connects the React frontend to the Node.js backend.
+
+---
+
 
 
 # React + Vite
