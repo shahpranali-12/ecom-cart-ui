@@ -17,11 +17,11 @@ function ReceiptModal({ receipt, onClose }) {
           <ul>
             {receipt.items.map(item => (
               <li key={item.id}>
-                {item.name} (x{item.qty}) - ${(item.price * item.qty).toFixed(2)}
+                {item.name} (x{item.qty}) - ₹{(item.price * item.qty).toFixed(2)}
               </li>
             ))}
           </ul>
-          <h3>Total: ${receipt.total}</h3>
+          <h3>Total: ₹{receipt.total}</h3>
         </div>
         <div className="modal-actions">
           <button type="button" className="btn-primary" onClick={onClose}>Close</button>

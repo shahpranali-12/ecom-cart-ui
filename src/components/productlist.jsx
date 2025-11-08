@@ -7,7 +7,7 @@ function ProductList({ products, onAddToCart }) {
         <div key={product.id} className="product-card">
           <img src={product.img || 'https://via.placeholder.com/150'} alt={product.name} />
           <h3>{product.name}</h3>
-          <p>${product.price.toFixed(2)}</p>
+          <p>₹{product.price.toFixed(2)}</p>
           <button onClick={() => onAddToCart(product.id, 1)}>
             Add to Cart
           </button>

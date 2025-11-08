@@ -12,13 +12,13 @@ function Cart({ cartItems, total, onRemove, onShowCheckout }) {
           {cartItems.map(item => (
             <div key={item.id} className="cart-item">
               <span>{item.name} (x{item.qty})</span>
-              <span>${(item.price * item.qty).toFixed(2)}</span>
+              <span>₹{(item.price * item.qty).toFixed(2)}</span>
               <button onClick={() => onRemove(item.id)}>Remove</button>
             </div>
           ))}
           <hr />
           <div className="cart-total">
-            <strong>Total: ${total.toFixed(2)}</strong>
+           <strong>Total: ₹{total.toFixed(2)}</strong>
           </div>
         </>
       )}
