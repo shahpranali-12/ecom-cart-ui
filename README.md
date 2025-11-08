@@ -10,9 +10,9 @@
 
 Here is a preview of the application:
 
-| Product Page | Cart & Checkout |
-| :---: | :---: |
-| ![Product Page](./images/screenshot-1.png) | ![Cart & Checkout Modal](./images/screenshot-2.png) |(./images/screenshot-3.png)
+| Product Page | Cart & Checkout | Receipt
+| :---: | :---: | 
+| ![Product Page](./images/screenshot-1.png) | ![Cart & Checkout Modal](./images/screenshot-2.png) | ![Receipt](./images/screenshot-3.png) |
 
 
 ---
